@@ -1,0 +1,59 @@
+n=int(input('Digite o primeiro numéro inteiro!'))
+m=int(input('Digite o segundo numéro inteiro!'))
+o=input(f'O resultado da adição dos dois números cima é igual a {n+m}')
+print(o)
+
+m=int(input('Quantos metros você deseja converter em milímetros? '))
+print(f'{m} metros é equivalente a {m*1000} milímetros')
+
+d=int(input('Dias:'))
+h=int(input('Horas:'))
+m=int(input('Minutos:'))
+s=int(input('segundos:'))
+total=d*24*60*60+h*60*60+m*60+s
+print(f'Valor total de {total} segundos')
+
+sa=int(input('Qual o salário atual?'))
+pa=int(input('Qual a porcentagem do aumento?'))
+total=pa*sa/100
+total2=sa+total
+print(f'O valor do aumento será {total}')
+print(f'O valor total do salário após o aumento será {total2}')
+
+sa=int(input('Qual o valor da mercadoria?'))
+pa=int(input('Qual a porcentagem do desconto?'))
+total=pa*sa/100
+total2=sa-total
+print(f'O valor do desconto será {total}')
+print(f'O valor total após o desconto será {total2}')
+
+d=int(input('Qual a distancia a ser percorrida?'))
+vm=int(input('Qual a velocidade média?'))
+total=d/vm
+print(f'Total de horas viajadas será {total}h')
+
+t=int(input('Temperatura em Celsius?'))
+total=9*t/5+32
+print(f'{t} graus Celsius é equivalente a {total} graus Fahrnheit')
+
+t=int(input('Temperatura em Fahrenheit?'))
+total=(t-32)*5/9
+print(f'{t} graus Fahrenheit é equivalente a {total} graus Celsius')
+
+km=int(input('Quantos km foram percorridos?'))
+d=int(input('Quantos dias foram alugados?'))
+kt=km*0.15
+dt=d*60
+total=kt+dt
+print(f'O total a ser pago será {total} reais')
+
+anos = int(input('Anos: '))
+cigarros = int(input('Cigarros: '))
+total = anos * 365 * cigarros
+vida_perdida = total / 144
+print (f'Você perdeu {vida_perdida:.2f} dias')
+
+len(str(2**1000000))
+
+
+
